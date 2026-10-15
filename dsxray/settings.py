@@ -18,6 +18,8 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
     "testserver",
+    "glawbit.vercel.app",
+    "glawbit-9tsvlf8yu-yashchoubey70-7358s-projects.vercel.app",
 ]
 
 extra_hosts = os.environ.get("DJANGO_ALLOWED_HOSTS", "")
